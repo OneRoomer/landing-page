@@ -7,6 +7,7 @@
 
 body {
     font-family: Roboto, sans-serif;
+    flex-direction: column;
 }
 
 .dachshund_logo {
@@ -46,7 +47,8 @@ p {
 img {
     width: 200px;
     height: 200px;
-    border: 5px solid #3882f6
+    border: 5px solid #3882f6;
+    border-radius: 12px;
 }
 
 .sign {
@@ -54,6 +56,7 @@ img {
     color: white;
     border: none;
     padding: 12px;
+    font-size: large;
     text-decoration: none;
     border-radius: 12px;
 }
@@ -70,7 +73,7 @@ img {
     background-color: #1f2937;
     align-items: center;
     justify-content: center;
-    padding: 120px;
+    padding: 100px;
 }
 
 .hero_img {
@@ -129,6 +132,7 @@ img {
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .cta_foot {
@@ -146,5 +150,14 @@ img {
     background-color: #3882f6;
     border: 2px solid white;
     border-radius: 8px;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #1f2937;
     color: white;
 }
